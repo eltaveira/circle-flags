@@ -2,6 +2,10 @@
   "name": "circle-flags",
   "version": "1.0.0",
   "description": "A collection of circular SVG country flags.",
+  "type": "module",
+  "scripts": {
+    "genflags": "npx tsx ./scripts/transform-symbolic-links.ts"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/HatScripts/circle-flags.git"
@@ -33,5 +37,9 @@
   "bugs": {
     "url": "https://github.com/HatScripts/circle-flags/issues"
   },
-  "homepage": "https://github.com/HatScripts/circle-flags#readme"
+  "homepage": "https://github.com/HatScripts/circle-flags#readme",
+  "dependencies": {
+    "@types/node": "^22.7.8",
+    "tsx": "^4.19.1"
+  }
 }

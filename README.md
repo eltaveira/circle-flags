@@ -1,5 +1,11 @@
 # circle-flags <img src="logo.svg" alt="circle-flags animated logo" align="right">
 
+## Symbolic links transformation
+
+To transform symbolic link icons to raw icons, run `npm run genflags`
+
+---
+
 A collection of circular SVG country flags.
 
 ## Usage
@@ -13,14 +19,14 @@ https://hatscripts.github.io/circle-flags/flags/xx.svg
 For example, the following code:
 
 ```html
-<img src="https://hatscripts.github.io/circle-flags/flags/br.svg" width="48">
-<img src="https://hatscripts.github.io/circle-flags/flags/cn.svg" width="48">
-<img src="https://hatscripts.github.io/circle-flags/flags/gb.svg" width="48">
-<img src="https://hatscripts.github.io/circle-flags/flags/id.svg" width="48">
-<img src="https://hatscripts.github.io/circle-flags/flags/in.svg" width="48">
-<img src="https://hatscripts.github.io/circle-flags/flags/ng.svg" width="48">
-<img src="https://hatscripts.github.io/circle-flags/flags/ru.svg" width="48">
-<img src="https://hatscripts.github.io/circle-flags/flags/us.svg" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/br.svg" width="48" />
+<img src="https://hatscripts.github.io/circle-flags/flags/cn.svg" width="48" />
+<img src="https://hatscripts.github.io/circle-flags/flags/gb.svg" width="48" />
+<img src="https://hatscripts.github.io/circle-flags/flags/id.svg" width="48" />
+<img src="https://hatscripts.github.io/circle-flags/flags/in.svg" width="48" />
+<img src="https://hatscripts.github.io/circle-flags/flags/ng.svg" width="48" />
+<img src="https://hatscripts.github.io/circle-flags/flags/ru.svg" width="48" />
+<img src="https://hatscripts.github.io/circle-flags/flags/us.svg" width="48" />
 ```
 
 ...produces this:<br/><br/>
@@ -51,7 +57,7 @@ npm install --save https://github.com/HatScripts/circle-flags
 ### Userscripts
 
 - [Google Translate: Filter & Flags](https://github.com/HatScripts/google-translate-filter-and-flags) - Filters languages and shows country flags on Google Translate
-- [Wiktionary: Filter & Flags](https://github.com/HatScripts/wiktionary-filter-and-flags) - Filters languages and shows country flags on Wiktionary 
+- [Wiktionary: Filter & Flags](https://github.com/HatScripts/wiktionary-filter-and-flags) - Filters languages and shows country flags on Wiktionary
 
 ## Contributing
 
@@ -72,23 +78,23 @@ Then commit the changes, and submit them as a pull request.
 Submitted flags should conform to the following color palette.<br/>
 Try to match the flag's original colors with the nearest color from the palette.
 
-* `#eeeeee`: white
-* `#acabb1`: gray
-* `#333333`: black
-* `#a2001d`: dark red
-* `#d80027`: red
-* `#ff9811`: orange
-* `#ffda44`: yellow
-* `#6da544`: green
-* `#496e2d`: dark green
-* `#338af3`: light blue
-* `#0052b4`: blue
+- `#eeeeee`: white
+- `#acabb1`: gray
+- `#333333`: black
+- `#a2001d`: dark red
+- `#d80027`: red
+- `#ff9811`: orange
+- `#ffda44`: yellow
+- `#6da544`: green
+- `#496e2d`: dark green
+- `#338af3`: light blue
+- `#0052b4`: blue
 
 Special cases:
 
-* `#002266`: dark blue (only one usage: [<img src="https://hatscripts.github.io/circle-flags/flags/td.svg" width="16"> Chad](https://github.com/HatScripts/circle-flags/blob/gh-pages/flags/td.svg), to differentiate from [<img src="https://hatscripts.github.io/circle-flags/flags/ro.svg" width="16"> Romania](https://github.com/HatScripts/circle-flags/blob/gh-pages/flags/ro.svg))
-* `#4a1f63`: purple (only one usage: [<img src="https://hatscripts.github.io/circle-flags/flags/es-ib.svg" width="16"> Balearic Islands](https://github.com/HatScripts/circle-flags/blob/gh-pages/flags/es-ib.svg))
-* `#751a46`: dark pink (only one usage: [<img src="https://hatscripts.github.io/circle-flags/flags/qa.svg" width="16"> Qatar](https://github.com/HatScripts/circle-flags/blob/gh-pages/flags/qa.svg))
+- `#002266`: dark blue (only one usage: [<img src="https://hatscripts.github.io/circle-flags/flags/td.svg" width="16"> Chad](https://github.com/HatScripts/circle-flags/blob/gh-pages/flags/td.svg), to differentiate from [<img src="https://hatscripts.github.io/circle-flags/flags/ro.svg" width="16"> Romania](https://github.com/HatScripts/circle-flags/blob/gh-pages/flags/ro.svg))
+- `#4a1f63`: purple (only one usage: [<img src="https://hatscripts.github.io/circle-flags/flags/es-ib.svg" width="16"> Balearic Islands](https://github.com/HatScripts/circle-flags/blob/gh-pages/flags/es-ib.svg))
+- `#751a46`: dark pink (only one usage: [<img src="https://hatscripts.github.io/circle-flags/flags/qa.svg" width="16"> Qatar](https://github.com/HatScripts/circle-flags/blob/gh-pages/flags/qa.svg))
 
 ## License
 
